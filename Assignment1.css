@@ -1,0 +1,36 @@
+body {
+   background-image: url(https://th.bing.com/th/id/OIP.aMX9W7TJVMid4vhGVAnq1wHaDo?w=320&h=171&c=7&r=0&o=5&dpr=1.1&pid=1.7);
+
+  }
+
+  .contact {
+    background-repeat:repeat-x;
+    padding: 8px;
+    background-color: azure;
+    border-radius: 7px;
+}
+.contact:hover{
+    background-color: aquamarine;
+    transition: all ease-in-out 1s;
+    text-transform: uppercase;
+}
+.data{
+    background-color:lightgray;
+    padding: 15px;
+    border-radius: 7px;
+    margin: 10px;
+}
+.data:hover{
+        background-color: darkgrey;
+        transition: all ease-in-out 1s;
+    }
+  h1 {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  p {
+    margin: 10px 0;
+    font-family: sans-serif;
+  }
